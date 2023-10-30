@@ -4,7 +4,7 @@ The Interface Analyzer package is a MATLAB-based tool designed to analyze and vi
 
 <p align="center">
 <img src="docs/figs/curvature.png" alt="curvature" width="300"/><br>
-<font size="-1"><b>Fig. 1:</b> Visualization of interfacial curvature calculated from the Interface Analyzer,.</font>
+<font size="-1"><b>Fig. 1:</b> Visualization of interfacial curvature calculated from the Interface Analyzer.</font>
 </p>
 
 ### Usage
@@ -16,6 +16,7 @@ Use the `analyzeInterface` function to process your rgrid data:
 [meanCurvature, stdCurvature, interfaceArea] = analyzeInterface('SG.rgrid', 'imds_face', 'imds_coord', 'imds_curv', 'imds_gauss')
 
 ```
+
 ### Relevant Work
 
 The development of the Interface Analyzer package was guided by valuable insights and methodologies derived from various works:\
