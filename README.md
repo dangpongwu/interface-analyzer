@@ -3,7 +3,7 @@
 The Interface Analyzer package is a MATLAB-based tool designed to analyze and visualize 3D interfaces from rgrid data of [Polymer Self-Consistent Field Theory  (PSCF)]((https://github.com/dmorse/pscfpp)). This package provides functions to process the data, generate isosurfaces, and save the results for further analysis or visualization.
 
 <p align="center">
-<img src="docs/figs/curvature.png" alt="curvature" width="600"/><br>
+<img src="docs/figs/curvature.png" alt="curvature" width="300"/><br>
 <font size="-1"><b>Fig. 1:</b> Visualization of interfacial curvature calculated from the Interface Analyzer,.</font>
 </p>
 
