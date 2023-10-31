@@ -9,13 +9,18 @@ The Interface Analyzer package is a MATLAB-based tool designed to analyze and vi
 
 ### Usage
 
-Use the `analyzeInterface` function to process your rgrid data:
+Use the `analyzeInterface` function to process rgrid data in `example`:
 
 ```matlab
 
 [meanCurvature, stdCurvature, interfaceArea] = analyzeInterface('SG.rgrid', 'imds_face', 'imds_coord', 'imds_curv', 'imds_gauss')
 
 ```
+SG.rgrid : A field representing monomer density across a regular grid, calculated using Polymer Self-Consistent Field (PSCF) theory.
+imds_face: Connectivity data for a triangulated mesh, showing how vertices are grouped to form triangles.
+imds_coord: The coordinates of the vertices in the triangulated mesh.
+imds_curv: Mean curvature values calculated at each vertex of the mesh.
+imds_gauss: Gaussian curvature values calculated at each vertex of the mesh.
 
 ### Relevant Work
 
